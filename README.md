@@ -1,3 +1,62 @@
+
+
+## Installation
+
+To run this script, you need to have Python installed on your system along with several libraries. Follow these steps to set up your environment:
+
+1. **Install Python:**
+   - If you don't have Python installed, download it from [python.org](https://www.python.org/downloads/) and install it on your system.
+
+2. **Set up a Virtual Environment (Optional but Recommended):**
+   - Open your terminal or command prompt.
+   - Navigate to your project directory.
+   - Create a virtual environment:
+     ```sh
+     python -m venv venv
+     ```
+   - Activate the virtual environment:
+     - On Windows: `venv\Scripts\activate`
+     - On macOS/Linux: `source venv/bin/activate`
+
+3. **Install Required Libraries:**
+   - Ensure that `pip` is up to date:
+     ```sh
+     python -m pip install --upgrade pip
+     ```
+   - Install the required libraries:
+     ```sh
+     pip install geopandas pandas matplotlib
+     ```
+
+## Running the Script
+
+- Once the installation is complete, run the script using:
+  ```sh
+  python geographic_analysis.py
+  ```
+
+## Diagrams Explanation
+
+1. **Spatial Distribution Plot:**
+   - This plot shows the geographical distribution of AQI data points. Each point represents the location of a measurement, providing a visual overview of the spatial spread of the data.
+
+2. **Hexbin Plot:**
+   - The hexbin plot offers a way to visualize the density of AQI data points. It is particularly useful in identifying clusters of high or low AQI values and understanding how these values are geographically distributed.
+
+3. **Scatter Plot:**
+   - This scatter plot maps AQI values against their geographical locations. Each point is colored based on its AQI value, allowing for an immediate visual understanding of the air quality at different locations.
+
+4. **Histogram:**
+   - The histogram displays the distribution of AQI values across all measured locations. It helps in understanding the frequency and spread of different AQI values, showing how common certain ranges of air quality are.
+
+5. **Descriptive Statistics:**
+   - After the plots, the script prints descriptive statistics of AQI values, including count, mean, standard deviation, minimum, quartiles, and maximum. This provides a statistical summary of the air quality data.
+
+## Data
+
+- Ensure that your AQI data is in a CSV format and includes 'lng' (longitude), 'lat' (latitude), and 'AQI Value' columns.
+- Update the `csv_path` in the script to point to your CSV file location.
+ Feel free to adjust the content according to your specific needs and data.
 To use the data from the Kaggle dataset "World Air Quality Index by City and Coordinates," you need to follow these steps:
 
 ![Air Quality Index Analysis](https://github.com/ucodefusion/world-air-quality-index-by-city-and-coordinates/blob/main/Figure_1.png?raw=true)
@@ -27,3 +86,10 @@ To use the data from the Kaggle dataset "World Air Quality Index by City and Coo
 6. **Data Exploration:**
    - Once the script runs successfully, it will display various plots that provide insights into the air quality index data. You can explore this data visually to understand patterns and distributions.
  
+Sure, I can provide you with a README file format that includes installation instructions from the start and explanations about each diagram in the script.
+
+---
+
+# Geospatial Data Analysis of Air Quality Index (AQI)
+
+This project provides a Python script for visualizing the Air Quality Index (AQI) data across various countries using geospatial analysis.
