@@ -1,5 +1,7 @@
 To use the data from the Kaggle dataset "World Air Quality Index by City and Coordinates," you need to follow these steps:
-![Uploading image.png…]()
+
+![Air Quality Index Analysis](https://github.com/ucodefusion/world-air-quality-index-by-city-and-coordinates/blob/main/Figure_1.png?raw=true)
+
 
 1. **Download the Data:**
    - Visit the Kaggle dataset page: [World Air Quality Index by City and Coordinates](https://www.kaggle.com/datasets/adityaramachandran27/world-air-quality-index-by-city-and-coordinates).
