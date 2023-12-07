@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Dataset
-csv_path = r'Udesh/AQI and Lat Long of Countries.csv'
+csv_path = r'Data/AQI and Lat Long of Countries.csv'
 
 # Read the CSV file
 df = pd.read_csv(csv_path)
