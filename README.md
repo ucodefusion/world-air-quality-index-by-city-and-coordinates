@@ -1,4 +1,8 @@
 
+# Geospatial Data Analysis of Air Quality Index (AQI)
+
+This project provides a Python script for visualizing the Air Quality Index (AQI) data across various countries using geospatial analysis.
+
 
 ## Installation
 
@@ -84,12 +88,5 @@ To use the data from the Kaggle dataset "World Air Quality Index by City and Coo
    - Follow the previously provided installation and running instructions.
 
 6. **Data Exploration:**
-   - Once the script runs successfully, it will display various plots that provide insights into the air quality index data. You can explore this data visually to understand patterns and distributions.
- 
-Sure, I can provide you with a README file format that includes installation instructions from the start and explanations about each diagram in the script.
-
+   - Once the script runs successfully, it will display various plots that provide insights into the air quality index data. You can explore this data visually to understand patterns and distributions. 
 ---
-
-# Geospatial Data Analysis of Air Quality Index (AQI)
-
-This project provides a Python script for visualizing the Air Quality Index (AQI) data across various countries using geospatial analysis.
